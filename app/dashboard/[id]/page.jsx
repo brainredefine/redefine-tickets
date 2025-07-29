@@ -118,7 +118,7 @@ export default function TicketDetails({ params }) {
 
   return (
     <div>
-      <h1>Ticket: {ticket.titel}</h1>
+      <h1>Ticket {ticket.id}: {ticket.titel}</h1>
       {ticket.mieter && <p><strong>Mieter:</strong> {ticket.mieter}</p>}
       {ticket.ansprechpartner && <p><strong>Ansprechpartner:</strong> {ticket.ansprechpartner}</p>}
       {ticket.email && <p><strong>Email:</strong> {ticket.email}</p>}
